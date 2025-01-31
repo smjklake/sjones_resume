@@ -1,0 +1,98 @@
+%-------------------------
+% Spencer Jones Resume
+% Link: https://github.com/smjklake/sjones_resume
+%
+% This resume is based off of the template found at this location
+% Link: https://github.com/subidit/rover-resume
+%------------------------
+
+\documentclass[11pt]{article} % fontsize
+
+\usepackage[margin=0.7in, a4paper]{geometry}
+\setcounter{secnumdepth}{0} % remove section numbering
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{1em}{1em} % reduced space before and after section
+\titlespacing{\subsection}{0pt}{1em}{0pt} % reduced space before subsection
+\titlespacing{\subsubsection}{0pt}{0pt}{0pt} % no extra spacing
+\titleformat{\section}{\large\bfseries\uppercase}{}{}{}[\titlerule]
+\titleformat*{\subsubsection}{\large\itshape}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep,topsep=0pt,partopsep=0pt,left=0pt .. \parindent}
+\pagestyle{empty} % remove page number
+\pdfgentounicode=1
+
+\begin{document}
+
+\begin{center}
+	\begin{minipage}{0.55\textwidth}
+		{\Huge\bfseries SPENCER JONES}
+	\end{minipage}
+	\begin{minipage}{0.4\textwidth}
+		\raggedleft
+		Email: sjones@smrising.com \\
+		Mobile: (623) 692-6238 \\
+        Website: smrising.com \\
+	\end{minipage} \hfill
+\end{center}
+
+\section{Education}
+%=================%
+\subsection{Western Governors University \hfill 2021 - 2023}
+\subsubsection{Bachelor of Science in Computer Science (65 Credits)}
+\subsection{Air University, Community College of the Air Force \hfill 2018} 
+\subsubsection{Associate in Applied Science}
+\vspace{0.7em}
+\section{Experience}
+%================
+
+\subsection*{Aspen Systems, Inc. \hfill Scottsdale, AZ}
+\subsubsection{Software Developer \hfill May 2022 - Present}
+\begin{itemize}
+    \item Led development of enterprise ERP features using C\#, TypeScript, and React for food industry clients
+    \item Engineered WPF/XAML applications implementing SOLID principles and MVVM architecture patterns
+    \item Enhanced performance of inventory systems through T-SQL query and stored procedure optimization
+    \item Architected enterprise wiki platform with automated content integration and version control
+    \item Developed responsive web interfaces with ASP.NET Core, React, and TypeScript using CI/CD pipelines
+\end{itemize}
+
+\subsection{National Indoor RV Centers \hfill Surprise, AZ}
+\subsubsection{Software Engineer \hfill Sept 2021 - Apr 2022}
+\begin{itemize}
+	\item Architected cloud-based ERP/CRM systems using Azure and .NET for enterprise-scale deployment
+	\item Established incident response protocols and automated monitoring for production environments
+	\item Developed enterprise UWP/Xamarin applications integrated with ASP.NET RESTful services
+	\item Improved database performance through SQL Server query optimization and stored procedures
+	\end{itemize}
+	
+	\subsubsection{Systems Administrator/Software Developer \hfill Apr 2020 - Sept 2021}
+	\begin{itemize}
+	\item Implemented business intelligence dashboards using InfluxDB, Telegraf, Grafana, and T-SQL
+	\item Automated Active Directory management and maintenance through PowerShell scripting
+	\item Integrated Microsoft Teams with enterprise VOIP systems for unified communications
+	\item Established multi-tiered technical support infrastructure using Freshdesk platform
+\end{itemize}
+
+\section{Technical Skills \& Certifications}
+%===============================%
+
+\begin{description}[itemsep=0pt]
+	\item[Languages] C\#, JavaScript, TypeScript, Go, SQL, PowerShell, HTML/CSS, XAML
+	\item[Frameworks] .NET Core, ASP.NET MVC/Web API, React, React Native, Vue.js, WPF
+	\item[Frontend] Vite, Tailwind CSS, REST APIs, Monaco Editor, Material UI, Bootstrap
+	\item[Cloud/DevOps] Microsoft Azure, Azure DevOps, Docker, Git, GitHub Actions, CI/CD Pipelines
+	\item[Data \& Storage] SQL Server, Entity Framework Core, OData, Couchbase, Solr, Redis
+	\item[Testing] xUnit, Jest, React Testing Library, Cypress, Selenium
+	\item[Certifications] CompTIA Project+, ITIL v4 (Active) | Security+, Network+ (Previous)
+\end{description}
+
+\section{Projects}
+%=================
+\subsection{Knowledge Base Platform $|$ \normalfont\textit{github.com/smjklake/glancr}}
+\begin{itemize}
+  \item Developed full-stack web application using Go backend and Vue.js frontend
+  \item Implemented real-time document editing with Monaco Editor integration
+  \item Created RESTful API with JWT authentication and version control
+  \item Deployed using Docker containers with automated CI/CD pipeline
+\end{itemize}
+
+\end{document}
